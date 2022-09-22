@@ -1,0 +1,1 @@
+This week  is the first week of the bootcamp. The topic is GIT. It was a great start for me!
