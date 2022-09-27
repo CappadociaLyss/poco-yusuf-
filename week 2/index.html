@@ -4,41 +4,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
     <meta name="viewport” content=“width=device-width, initial-scale=1.0">
     <title>HTML Exercises</title>
 </head>
-
 <body>
     <fieldset>
         <legend>Personal Information</legend>
         <form>
             <div>
                 <label for=“name”>Name:</label> <br>
-                <input type=“text” id=“name” placeholder=“Enter your name...“>
+                <input type=“text” id=“name” placeholder=Enter your name>
             </div> <br>
             <div>
                 <label for=“surname”>Surname:</label> <br>
-                <input type=“text” id=“surname” placeholder=“Enter your surname...“>
+                <input type=“text” id=“surname” placeholder=Enter your surname...>
             </div> <br>
             <div>
                 <label for=“email”>Email:</label> <br>
-                <input type=“email” id=“email” placeholder=“example@email.com” required>
+                <input type=“email” id=“email” placeholder=example@email.com required>
             </div> <br>
             <div>
                 <label for=“phone”>Telephone:</label> <br>
-                <input type=“tel” id=“phone” placeholder=“077XXXXXXX”>
+                <input type=“tel” id=“phone” placeholder=077XXXXXXX>
             </div> <br> <br>
-            Select the color:<input type=“color”> <br> <br>
-            Select the date:<input type=“datetime-local”><br><br>
+            Select the color:<input type="color"> <br> <br>
+            Select the date:<input type="date"><br><br>
+            <fieldset>
+                <legend>Media</legend>
+                <video id="school" width="320" height="240" controls autoplay>
+                    <source
+                        src="/video /Back to School 2020 _ Supplies for School - Cartoon for Children _ Kids Academy (1).mp4"
+                        type="video/mp4">
+                    <source
+                        src="/video /Back to School 2020 _ Supplies for School - Cartoon for Children _ Kids Academy (1).mp4"
+                        type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                <audio id="voice" controls autoplay>
+                    <source src="/video /sample-6s.mp3" type="audio/ogg">
+                    <source src="/video /sample-6s.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </fieldset>
             <fieldset>
                 <legend>Gender:</legend>
-                <label>
-                    <input type=“radio” name=“Gender”> Male
-                </label>
-                <label>
-                    <input type=“radio” name=“Gender”> Female
-                </label>
+                <input type="radio" name="Gender" checked="checked"> Male
+                <input type="radio" name="Gender"> Female
             </fieldset>
             <br><br>
             <p>This is our checkbox list:</p>
@@ -49,12 +60,13 @@
             <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
             <label for="vehicle3"> I have a boat</label>
             <br><br><br>
-
             <input type="submit" value="Submit">
-            <br>
-
-            <label for="file"> Choose File </label>
-            <input type="file" id="file"> <br>
+            <br><br><br>
+            <fieldset>
+                <legend>File Secttion</legend>
+                <label for="file"> Choose File </label>
+                <input type="file" id="file"> <br>
+            </fieldset>
         </form>
     </fieldset>
     <br><br>

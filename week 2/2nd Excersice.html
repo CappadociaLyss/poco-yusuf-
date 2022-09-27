@@ -12,7 +12,7 @@
             <h1>Profil</h1>
             <p><strong>Hier können Sie Ihre Addresse-Angaben einsehen und anpassen</strong></p>
                 <hr>
-            <form action="">
+            <form>
                 <h2>Persönliche Daten</h2>
                 <label for="titel">Titel</label>
                 <input type="text" id="titel" value="Dr. hc">
@@ -27,19 +27,19 @@
                     <br>
 
                 <label for="gender">Geschlecht</label>
-                <input type="radio" name="gender" id="gender" value="W">
-                <label for="M">W</label>
-                <input type="radio" name="gender" id="gender" value="M" checked="checked">
+                <input type="radio" name="gender" id="W" value="W">
+                <label for="W">W</label>
+                <input type="radio" name="gender" id="M" value="M" checked="checked">
                 <label for="M">M</label>
                     <br>
 
                 <label for="language">Sprache</label>
-                <input type="radio" name="language" id="language" value="DE" checked="checked">
-                <label for="M">DE</label>
-                <input type="radio" name="language" id="language" value="FR">
-                <label for="M">FR</label>
-                <input type="radio" name="language" id="language" value="IT">
-                <label for="M">IT</label>
+                <input type="radio" name="language" id="DE" value="DE" checked="checked">
+                <label for="DE">DE</label>
+                <input type="radio" name="language" id="FR" value="FR">
+                <label for="FR">FR</label>
+                <input type="radio" name="language" id="IT" value="IT">
+                <label for="IT">IT</label>
 
                 <hr>
 
@@ -87,7 +87,7 @@
 
                 <label for="adresse">Adresse / Haus Nr</label>
                 <input type="text" id="adresse" value="Musterstrasse"> 
-                <input type="number" id="adresse" value="33">
+                <input type="number" id="adres" value="33">
                     <br>
 
                 <label for="zadresse">Zusatz Adresse</label>
@@ -100,12 +100,12 @@
 
                 <label for="ort">PLZ / Ort</label>
                 <input type="number" id="ort" value="8800"> 
-                <input type="text" id="ort" value="Musterstrasse">
+                <input type="text" id="ortt" value="Musterstrasse">
                     <br>
 
                 <label for="land">Kanton / Land</label>
                 <input type="text" id="land" value="ZH" maxlength="2"> 
-                <input type="text" id="land" value="Schweiz">
+                <input type="text" id="landd" value="Schweiz">
                     <br>
 
                 <input type="submit" value="Speichern">
