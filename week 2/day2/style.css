@@ -1,0 +1,83 @@
+#ar strong,
+em {
+    font-size: 1em;
+}
+
+#arr strong,
+em {
+    font-size: 1em;
+}
+
+#arr strong,
+em {
+    font-size: 1em;
+}
+
+#ar {
+    font-size: 4em;
+}
+
+#arr {
+    font-size: 4rem;
+}
+
+#arr {
+    font-size: 35px;
+}
+
+p{
+    font-size: 3vw;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 55px;
+     font-variant: normal;
+     font-stretch: normal;
+     text-transform: initial;
+     background-color: antiquewhite;
+     background-image: url();
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-origin: content-box;
+     background-clip: content-box;
+     background-attachment: fixed;
+
+
+
+}
+
+
+
+/*we select all the element p  veya p strong
+selecting ,ultible elements by using a class ornek .warning
+we select onlöy one element by using uniqe id ornek #warnng 
+
+generic  genel  specific ozeli secerken
+
+decleration curly bracket in icindeki hersey
+
+property: value;
+
+alfabetik siraya gore godebilriz-- veya go by type genelden ozele dogru git
+
+p , strong burada virgul and anlaminda 
+p strong burada sadece strong elmenti secilmis p nin icersinde olan
+
+
+buildt a basic layout
+Flex -- 
+Grid
+Multi columns
+Float
+
+
+
+we can use css in 3 types
+external
+embedded (internal)
+inline 
+
+
+
+
+
+*/
