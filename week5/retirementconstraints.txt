@@ -1,3 +1,5 @@
 cons
 1- Inputs must be positive number;
 2- Retirement age can not be earlier than current age.
+3- Each time, users can enter 2 ages.
+4- Retired age can not be bigger than 75.
