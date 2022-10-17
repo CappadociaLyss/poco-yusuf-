@@ -1,0 +1,72 @@
+a = 12 and b = 10
+
+
+a≠0 and b≠0
+
+In quotient remainder form we can write 12 = 10 × 1 + 2
+
+Thus, GCD (10, 2) is to be found, as GCD(12, 10) = GCD (10, 2)
+Now, a = 10 and b = 2
+a≠0 and b≠0
+In quotient remainder form we can write 10 = 2 × 5 + 0
+Thus, GCD (2,0) is to be found, as GCD(10, 2) = GCD (2, 0)
+Now, a = 2 and b = 0
+a≠0 and b=0
+Thus, GCD (2,0) = 2
+GCD (12, 10) = GCD (10, 2) = GCD (2, 0) = 2
+Thus, GCD of 12 and 10 is 2.
+
+
+
+
+
+x!=y
+
+
+1- we reach x via using y   (- E.g  x= 7    y = 3   7=(3*2)+1)
+2- divide x with y (bigger to smaller) and add the remainder;
+3- assign y as x and remainder as y;      E.g x=3 y=1 
+4- countinue steps 2&3 until you get 0 after + (sign)  (E.G 2=2*1+0)
+5- If the number after +(sign)=0, the last y number is the GCD
+
+
+x=36
+y=24
+
+36=24*1+12
+
+x=24 y=12;
+24=12*2+0 cannot continue to calculation
+
+
+
+36   24  2*
+18   12  2*
+9     6  2
+9     3  3*
+3     1  3
+1     1  
+
+GCD=2*2*3=12
+
+
+
+
+
+
+
+
+
+1- We have two numbers, not equal each other.
+2- x > y, we reach x via using y. We divide (bigger to smaller) x with y and add the remainder;
+3- We assined y as x and remainder as y;
+2- we countinue this calcualtion until we get 0 after + sign.  E.G 2=2*1+0
+3- the last y number is the GCD 
+
+
+
+
+7=   3 *2+1
+3 = 1*3+0
+
+ 
