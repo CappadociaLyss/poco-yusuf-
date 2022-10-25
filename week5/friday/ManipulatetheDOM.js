@@ -6,7 +6,7 @@ for (let i = 0; i < 2; i++) {
   //appending (ekleme)
   HH1.textContent += i;
   // HH1.textContent = HH1.textContent + " " + i;
-} 
+}
 
 for (let i = 0; i < 4; i++) {
   //prepending (başa eklemek)
@@ -15,4 +15,5 @@ for (let i = 0; i < 4; i++) {
 
 for (let i = 0; i < 7; i++) {
   //replacing (değiştirme)
-  alink.textContent = i;}
+  alink.textContent = i;
+}

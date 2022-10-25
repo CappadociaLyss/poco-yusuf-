@@ -1,55 +1,55 @@
 const powercoders = [
     {
-        "img" : "img/abdul.jpg",
+        "img" : "./img/00-Powercoders_Portrait_2.jpg",
         "name" : "Abdul",
         "eyeColor" : "Brown",
         "hobby" : "Music"
 
     },
     {
-        "img" : "img/yuliia.jpg",
+        "img" : "img/00-Powercoders_Portrait_50.jpg",
         "name" : "Yuliia",
         "eyeColor" : "Blue",
         "hobby" : "Dance"
 
     },
     {
-        "img" : "img/oguz.jpg",
+        "img" : "./img/01-Powercoders_Portrait_5.jpg",
         "name" : "Oguz",
         "eyeColor" : "Black",
         "hobby" : "Guitar"
 
     },
     {
-        "img" : "img/bilal.jpg",
+        "img" : "./img/01-Powercoders_Portrait_51.jpg",
         "name" : "Bilal",
         "eyeColor" : "Black",
         "hobby" : "Walking"
 
     },
     {
-        "img" : "img/ismet.jpg",
+        "img" : "img/02-Powercoders_Portrait_6.jpg",
         "name" : "Ismet",
         "eyeColor" : "Green",
         "hobby" : "Singing"
 
     },
     {
-        "img" : "img/helene.jpg",
+        "img" : "img/03-Powercoders_Portrait_7.jpg",
         "name" : "Hélène",
         "eyeColor" : "Blue",
         "hobby" : "Sailing"
 
     },
     {
-        "img" : "img/seb.jpg",
+        "img" : "img/04-Powercoders_Portrait_54.jpg",
         "name" : "Seb",
         "eyeColor" : "Green",
         "hobby" : "Coding"
 
     },
     {
-        "img" : "img/linus.jpg",
+        "img" : "img/04-Powercoders_Portrait_8.jpg",
         "name" : "Linus",
         "eyeColor" : "Green",
         "hobby" : "Cooking"
